@@ -20,7 +20,7 @@ console.log(`età di oggi ${annoCorrente - annoNascita}`);
 console.log(`età tra dieci anni  ${annoCorrente - annoNascita + futuroUno}`);
 console.log(`eta tra cinque anni ${annoCorrente - annoNascita + futuroDue}`);
 
-let eta = `28`;
+let eta = 28;
 let maggiorenne = eta >= 18;
 console.log(`Maggiorenne?: ${maggiorenne} `);
 
@@ -28,10 +28,10 @@ console.log(typeof "ciao"); // string
 console.log(typeof 42); // number
 console.log(typeof true); // boolean
 console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+console.log(typeof null); // object perchè volutamente è stato messo null
 
-let numberString = 5;
-let numberNumber = `5`;
+let numberString = `5`;
+let numberNumber = 5;
 
 console.log(numberNumber == numberString); //valore o tipo uguali quindi true
 console.log(numberNumber === numberString); // valore e tipo devono essere uguali ma non lo sono uno è una stringa l'altro è un numero quindi false
