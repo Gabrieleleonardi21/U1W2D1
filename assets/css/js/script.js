@@ -44,11 +44,11 @@ console.log(numberTwo - 3); // 2
 console.log(true + 1); //true vale 1 mentre false 0 qundi fa 2
 console.log(numberThree * "2"); //20
 
-const n = 12;
+let n = 12;
 
-const isPari = n % 2 === 0;
-const isDivisibile3 = n % 3 === 0;
-const isPariEDivisibile3 = isPari && isDivisibile3;
+let isPari = n % 2 === 0;
+let isDivisibile3 = n % 3 === 0;
+let isPariEDivisibile3 = isPari && isDivisibile3;
 
 console.log(`n è pari: ${isPari}`);
 console.log(`n è divisibile per 3: ${isDivisibile3}`);
