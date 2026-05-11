@@ -14,9 +14,11 @@ console.log(`potenza ${firstNumber ** secondNumber}`);
 
 const annoNascita = 1998;
 const annoCorrente = 2026;
+const futuroUno = 10;
+const futuroDue = 5;
 console.log(`età di oggi ${annoCorrente - annoNascita}`);
-console.log(`età tra dieci anni  ${annoCorrente - annoNascita + 10}`);
-console.log(`eta tra cinque anni ${annoCorrente - annoNascita + 5}`);
+console.log(`età tra dieci anni  ${annoCorrente - annoNascita + futuroUno}`);
+console.log(`eta tra cinque anni ${annoCorrente - annoNascita + futuroDue}`);
 
 let età = `28`;
 console.log(`Eta: ${età} - Maggiorenne?: ${età >= 18} `);
@@ -30,15 +32,15 @@ console.log(typeof null); // object
 let numberString = 5;
 let numberNumber = `5`;
 
-console.log(numberNumber == numberString); //valore o tipo uguali
-console.log(numberNumber === numberString); // valore e tipo devono essere uguali ma non lo sono uno è una stringa l'altro è un numero
+console.log(numberNumber == numberString); //valore o tipo uguali quindi true
+console.log(numberNumber === numberString); // valore e tipo devono essere uguali ma non lo sono uno è una stringa l'altro è un numero quindi false
 
 let numberTwo = "5";
 let numberThree = "10";
 
 console.log(`dovrebbe essere 53 ${numberTwo + 3}`);
 console.log(`dovrebbe essere 2 ${numberTwo - 3}`);
-console.log(`credo sia 1 ${true + 1}`);
+console.log(`credo sia 1 ${true + 1}`); //true vale 1 mentre false 0
 console.log(`credo sia 20 ${numberThree * "2"}`);
 
 const n = 12;
