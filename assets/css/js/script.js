@@ -26,3 +26,17 @@ console.log(typeof 42); // number
 console.log(typeof true); // boolean
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+let numberString = 5;
+let numberNumber = `5`;
+
+console.log(numberNumber == numberString); //valore o tipo uguali
+console.log(numberNumber === numberString); // valore e tipo devono essere uguali ma non lo sono uno è una stringa l'altro è un numero
+
+let numberTwo = "5";
+let numberThree = "10";
+
+console.log(`dovrebbe essere 53 ${numberTwo + 3}`);
+console.log(`dovrebbe essere 2 ${numberTwo - 3}`);
+console.log(`credo sia 1 ${true + 1}`);
+console.log(`credo sia 20 ${numberThree * "2"}`);
