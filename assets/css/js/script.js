@@ -30,7 +30,7 @@ console.log(typeof true); // boolean
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object perchè volutamente è stato messo null
 
-let numberString = `5`;
+let numberString = "5";
 let numberNumber = 5;
 
 console.log(numberNumber == numberString); //valore o tipo uguali quindi true
@@ -39,10 +39,10 @@ console.log(numberNumber === numberString); // valore e tipo devono essere ugual
 let numberTwo = "5";
 let numberThree = "10";
 
-console.log(`dovrebbe essere 53 ${numberTwo + 3}`);
-console.log(`dovrebbe essere 2 ${numberTwo - 3}`);
-console.log(`credo sia 1 ${true + 1}`); //true vale 1 mentre false 0
-console.log(`credo sia 20 ${numberThree * "2"}`);
+console.log(numberTwo + 3); // 53
+console.log(numberTwo - 3); // 2
+console.log(true + 1); //true vale 1 mentre false 0 qundi fa 2
+console.log(numberThree * "2"); //20
 
 const n = 12;
 
