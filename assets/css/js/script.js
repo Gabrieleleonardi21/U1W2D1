@@ -13,15 +13,16 @@ console.log(`percentuale ${firstNumber % secondNumber}`);
 console.log(`potenza ${firstNumber ** secondNumber}`);
 
 const annoNascita = 1998;
-const annoCorrente = 2026;
+const annoCorrente = 2026; // si poteva fare myAge= annoCorrente - annoNascita e dunque console.log(`Oggi hai ${myAge}, tra 10 anni avrai ${myAge + 10}, cinque anni fa avevi ${myAge - 5}`);
 const futuroUno = 10;
 const futuroDue = 5;
 console.log(`età di oggi ${annoCorrente - annoNascita}`);
 console.log(`età tra dieci anni  ${annoCorrente - annoNascita + futuroUno}`);
 console.log(`eta tra cinque anni ${annoCorrente - annoNascita + futuroDue}`);
 
-let età = `28`;
-console.log(`Eta: ${età} - Maggiorenne?: ${età >= 18} `);
+let eta = `28`;
+let maggiorenne = eta >= 18;
+console.log(`Maggiorenne?: ${maggiorenne} `);
 
 console.log(typeof "ciao"); // string
 console.log(typeof 42); // number
