@@ -54,9 +54,9 @@ console.log(`n è pari: ${isPari}`);
 console.log(`n è divisibile per 3: ${isDivisibile3}`);
 console.log(`n è pari E divisibile per 3: ${isPariEDivisibile3}`);
 
-const a = 22;
-const b = 15;
-const c = 18;
+let a = 22;
+let b = 15;
+let c = 18;
 
 const perimetro = a + b + c;
 
