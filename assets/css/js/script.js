@@ -40,3 +40,24 @@ console.log(`dovrebbe essere 53 ${numberTwo + 3}`);
 console.log(`dovrebbe essere 2 ${numberTwo - 3}`);
 console.log(`credo sia 1 ${true + 1}`);
 console.log(`credo sia 20 ${numberThree * "2"}`);
+
+console.log(12 % 2 == 0);
+console.log(12 % 3 == 0);
+console.log(12 % 2 == 0) + (12 % 3 == 0);
+
+const a = 22;
+const b = 15;
+const c = 18;
+
+const perimetro = a + b + c;
+
+let tipo;
+if (a === b && b === c) {
+  tipo = "equilatero";
+} else if (a === b || b === c || a === c) {
+  tipo = "isoscele";
+} else {
+  tipo = "scaleno";
+}
+
+console.log(`Triangolo ${tipo}, perimetro ${perimetro}`);
