@@ -41,9 +41,15 @@ console.log(`dovrebbe essere 2 ${numberTwo - 3}`);
 console.log(`credo sia 1 ${true + 1}`);
 console.log(`credo sia 20 ${numberThree * "2"}`);
 
-console.log(12 % 2 == 0);
-console.log(12 % 3 == 0);
-console.log(12 % 2 == 0) + (12 % 3 == 0);
+const n = 12;
+
+const isPari = n % 2 === 0;
+const isDivisibile3 = n % 3 === 0;
+const isPariEDivisibile3 = isPari && isDivisibile3;
+
+console.log(`n è pari: ${isPari}`);
+console.log(`n è divisibile per 3: ${isDivisibile3}`);
+console.log(`n è pari E divisibile per 3: ${isPariEDivisibile3}`);
 
 const a = 22;
 const b = 15;
